@@ -1,0 +1,87 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 600px;
+    max-width: 100%;
+}
+
+
+.container-2 {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    width: 800px;
+    max-width: 100%;
+}
+
+
+.quadrado {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.retangulo {
+    width: 100%;
+    height: 80px; /* Menor altura para criar os retângulos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+#bloco1{
+background-color: #e74c3c;
+    }
+#bloco2 {
+    background-color: #27ae60;
+}
+#bloco3 {
+    background-color: #f1c40f;
+}
+#bloco4 {
+    background-color: #3498db;
+}
+
+
+#retangulo1 {
+    background-color: #e74c3c;
+}
+#retangulo2 {
+    background-color: #27ae60; 
+}
+#retangulo3 {
+    background-color: #f1c40f;  
+}
+#retangulo4 {
+    background-color: #3498db; 
+}
+
+
